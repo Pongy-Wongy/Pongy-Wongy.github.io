@@ -196,3 +196,21 @@ dNum을 int 타입으로 변환하라는 뜻.
 - - -
 -------------------------------
 ```
+
+
+
+### 2.7 링크
+```markdown
+- 링크 표시법 : [Title](link)
+[Youtube 페이지 링크](https://www.youtube.com/)
+```
+[Youtube 페이지 링크](https://www.youtube.com/)
+
+● 주소 직접 표시법  
+```markdown
+<https://www.youtube.com>
+```  
+  
+
+
+### 2.8 표 만들기
