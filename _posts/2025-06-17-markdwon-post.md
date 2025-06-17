@@ -136,9 +136,17 @@ System.out.println(dNum0);
 System.out.println(a);
 System.out.println(f);
 ```
-
-자동 형변환 - result1이라는 double형 변수를 만들고,  변수 iNum을 double형으로 자동 형변환하세요.  
+```java
+10.0
+3.14
+A
+false
+```
   
+
+
+자동 형변환 - result1이라는 double형 변수를 만들고, 변수 iNum을 double형으로 자동 형변환하세요.  
+
 ```java
 int iNum = 10;
 double result1 = iNum;
@@ -148,6 +156,37 @@ System.out.println(result1);
 ```java
 10.0
 ```
+double 64bit 실수형 데이터 타입중 하나이다(float보다 더 높은 정밀도를 제공)
+10 이 10.0으로 바뀐걸 알 수 있다.
+  
+  
+
+강제 형변환 - result2라는 int형 변수를 만들고, 변수 dNum을 int형으로 강제 형변환하세요.  
+  
+```java
+double dNum = 20.5;
+int result2 = (int)dNum;
+System.out.println(result2);
+```
+
+```java
+20
+```
+
+이 부분이 핵심 🔥
+dNum은 double 타입이니까, 바로 int 변수에 넣을 수 없어.
+(왜냐면 int는 정수만 저장하고, double은 소수까지 저장하니까 손실이 날 수 있어)
+
+그래서 int로 **강제 형변환(casting)**을 해줘야 해.
+
+(int)dNum 의 의미:
+dNum을 int 타입으로 변환하라는 뜻.
+
+이 형변환은 **소수점 이하를 버림(내림이 아님!)**하고, 정수 부분만 남겨.
+
+
+
+
 
 
 
