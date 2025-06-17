@@ -226,6 +226,6 @@ dNum을 int 타입으로 변환하라는 뜻.
 
 ### 2.9 이미지 삽입
 ```markdown
-![](https://github.com/Pongy-Wongy/Pongy-Wongy.github.io/tree/master/assets/images/coding-boy.png)
+![코딩하는 소년](./coding-boy.png)
 ```
-![](https://github.com/Pongy-Wongy/Pongy-Wongy.github.io/tree/master/assets/images/coding-boy.png)
+![코딩하는 소년](./coding-boy.png)
