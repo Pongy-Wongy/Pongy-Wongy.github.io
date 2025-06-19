@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "논리연산자"
+excerpt: "논리연산자 복습"
 date: 2025-06-19
 categories: [블로그, 마크다운]
 tags: [GitHub, Markdown, Jekyll]
