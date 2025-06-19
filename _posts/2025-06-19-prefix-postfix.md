@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "복합대입연산자"
+title: "전위●후위 연산"
 date: 2025-06-19
 categories: [블로그, 마크다운]
 tags: [GitHub, Markdown, Jekyll]
