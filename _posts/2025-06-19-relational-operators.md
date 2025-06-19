@@ -1,9 +1,11 @@
 ---
 layout: single
 title: "관계연산자"
-date: 2025-06-17
+excerpt: "관계연산자 복습"
+date: 2025-06-19
 categories: [블로그, 마크다운]
 tags: [GitHub, Markdown, Jekyll]
+last_modified_at: 2025-06-19T08:06:00-05:00
 ---
 
 
