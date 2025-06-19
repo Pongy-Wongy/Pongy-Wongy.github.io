@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "복합대입연산자"
+title: "관계연산자"
 date: 2025-06-17
 categories: [블로그, 마크다운]
 tags: [GitHub, Markdown, Jekyll]
