@@ -1,9 +1,11 @@
 ---
 layout: single
 title: "전위●후위 연산"
+excerpt: "전위●후위 연산 복습"
 date: 2025-06-19
 categories: [블로그, 마크다운]
 tags: [GitHub, Markdown, Jekyll]
+last_modified_at: 2025-06-19T08:06:00-05:00
 ---
 
 
