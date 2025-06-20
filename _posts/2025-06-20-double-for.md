@@ -71,6 +71,14 @@ public class For08 {
 
 }
 ```
+```markdown
+*
+**
+***
+****
+*****
+```
+
 
 ```java
 package chapter03;
