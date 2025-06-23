@@ -1,11 +1,11 @@
 # main links
 main:
-  - title: "블로그 방문하기"
-    url: https://pongy-wongy.github.io/
-  - title: "Categories"
+  - title: "Category"
     url: /categories/
-  - title: "ABOUT"
-    url: /about/
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
