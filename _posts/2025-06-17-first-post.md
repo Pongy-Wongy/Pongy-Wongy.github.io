@@ -1,11 +1,7 @@
 ---
 title:  "github.io 블로그 시작하기"
 excerpt: "GitHub Blog 서비스인 github.io 블로그 시작하기로 했다."
-
-categories:
-  - Blog
-tags:
-  - Blog
+categories : 시작
 ---
 
 개발자 취업을 목표로 하기위해 부트캠프에서 배우는 내용을 정리하기 위해 
