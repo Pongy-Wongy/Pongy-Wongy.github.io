@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "복합대입연산자"
+excerpt: "복합대입연산자 복습"
 categories: Java
 tag: Java 
 toc: true
