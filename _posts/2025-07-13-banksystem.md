@@ -3,7 +3,7 @@ layout: single
 title: "여러가지 코드로 입출금시스템 만들기"
 excerpt: "switch-case문, do-while문, for문 으로 만드는 은행 입출금 시스템입니다."
 categories: Java
-tags: Java
+tag: Java
 toc: true
 ---
 

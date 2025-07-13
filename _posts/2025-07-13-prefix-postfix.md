@@ -3,7 +3,7 @@ layout: single
 title: "전위●후위 연산"
 excerpt: "전위●후위 연산 복습"
 categories: Java
-tags: Java
+tag: Java
 toc: true
 ---
 

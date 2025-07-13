@@ -3,7 +3,7 @@ layout: single
 title: "지역변수"
 excerpt: "지역변수 복습"
 categories: Java
-tags: Java
+tag: Java
 toc: true
 ---
 

@@ -3,7 +3,7 @@ layout: single
 title: "중첩for문-피라미드(심화)"
 excerpt: "피라미드(심화)로 중첩for문 복습"
 categories: Java
-tags: Java
+tag: Java
 toc: true
 ---
 

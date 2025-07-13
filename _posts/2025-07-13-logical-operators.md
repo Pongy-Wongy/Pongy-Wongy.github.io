@@ -3,7 +3,7 @@ layout: single
 title: "논리연산자"
 excerpt: "논리연산자 복습"
 categories: Java
-tags: Java
+tag: Java
 toc: true
 ---
 

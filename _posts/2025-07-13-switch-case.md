@@ -3,7 +3,7 @@ layout: single
 title: "Switch-case"
 excerpt: "Switch-case 복습"
 categories: Java
-tags: Java
+tag: Java
 toc: true
 ---
 

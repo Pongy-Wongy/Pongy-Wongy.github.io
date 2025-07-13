@@ -3,7 +3,7 @@ layout: single
 title: "중첩for문"
 excerpt: "중첩for문 복습"
 categories: Java
-tags: Java
+tag: Java
 toc: true
 ---
 
