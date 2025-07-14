@@ -156,7 +156,7 @@ class Person{
 
 메인호출
 ```java
-Persion person = new Person
+Person person = new Person
 person.setName("철수");
 System.out.println(person.name);// 출력 >>> 철수
 ```
@@ -191,7 +191,7 @@ public static void main(String[] args) {
 -------------------------------------------
 
 ## Getter 와 Setter
-Getter : 인스턴스 변수의 값 반환
+Getter : 인스턴스 변수의 값 반환(가져오기)
 Setter : 인스턴스 변수의 값 설정
 ```markdown
 Getter
@@ -252,7 +252,7 @@ protected : 같은 패키지 내에서, 다른 패키지인 경우 자식 클래
 
 ```markdown
 부모클래스: 기능1, 기능2 
->>>>>>>>>>>>>>>>>>>>>자식 클래스: 기능1,기능2 + 기능3 (부모클래스의 기능 재사용(기능1,기능2))
+>>>>>>>>>>>>>>>>>>>>>자식 클래스: 기능1,기능2 + 기능3(추가)(부모클래스의 기능 재사용(기능1,기능2))
 
 class 자식클래스명 extends 부모 클래스명{
 
@@ -268,7 +268,78 @@ class Student extends Person {
 ----------------------------------------------------------
 
 ## 메소드 오버라이딩
+부모 클래스의 메소드 재정의
+```java
+//부모클래스
+class Persion{
+    public void introduce() {
+        System.out.println("사람입니다")
+    }
+}
 
+//자식클래스
+class Student extends Person{
+    public void introduce(){
+        System.out.println("학생입니다")
+    }
+}
+```
+
+----------------------------------------------------------
+
+## 다형성
+여러 형태로 동작할 수 있는 성질
+
+### 다형성의 중요성
+1. 유연한 코드 작성
+- 다양한 객체를 하나의 타입으로 관리 가능
+
+2. 코드 재사용성과 확장성 향상
+- 유지보수가 쉬어지고, 새로운 클라스 추가가 용이함
+```java
+class Person{
+    public void introduce(){
+        System.out.println("사람입니다")
+    }
+}
+class Student extends Person{
+    public void introduce(){
+        System.out.println("학생입니다")
+    }
+}
+
+///메인호출
+public static void main(String[] args){
+    Person person = new Person();
+
+    Person student = new Student();//중요
+    //Person 타입의 변수지만,실제 객체는 Student (업캐스팅)
+
+
+    person.introduce();
+    student.introduce();
+}
+```
+```html
+<table>
+  <thead>
+    <tr>
+      <th>구분</th>
+      <th>설명</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>컴파일 시점</td>
+      <td>student는 Person 타입으로 판단 → Person 클래스에 introduce()가 있는지만 확인함</td>
+    </tr>
+    <tr>
+      <td>실행 시점</td>
+      <td>student 안에 실제 객체가 Student이므로 → Student의 introduce() 호출됨</td>
+    </tr>
+  </tbody>
+</table>
+```
 
 
 
