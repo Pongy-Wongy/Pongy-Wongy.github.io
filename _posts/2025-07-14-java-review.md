@@ -3,7 +3,7 @@ layout: single
 title: "Class 복습"
 excerpt: "Class-Java문법개념 복습"
 categories: Java
-tag: Java
+tag: [Java, class]
 toc: true
 ---
 
@@ -170,7 +170,7 @@ System.out.println(person.name);// 출력 >>> 철수
 }
 ```
 
-```Java
+```java
 class Person{
     String name;
     int age;
@@ -254,7 +254,7 @@ protected : 같은 패키지 내에서, 다른 패키지인 경우 자식 클래
 부모클래스: 기능1, 기능2 
 >>>>>>>>>>>>>>>>>>>>>자식 클래스: 기능1,기능2 + 기능3 (부모클래스의 기능 재사용(기능1,기능2))
 
-clas 자식클래스명 extends 부모 클래스명{
+class 자식클래스명 extends 부모 클래스명{
 
 }
 ```
