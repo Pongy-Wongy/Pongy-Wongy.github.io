@@ -321,8 +321,6 @@ public static void main(String[] args){
     student.introduce();
 }
 ```
-
-```html
 <table>
   <thead>
     <tr>
@@ -341,7 +339,12 @@ public static void main(String[] args){
     </tr>
   </tbody>
 </table>
-```
+
+
+----------------------------------------------------------
+
+## Super
+부모 클래스 접근
 
 
 
