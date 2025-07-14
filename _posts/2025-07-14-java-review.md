@@ -346,6 +346,74 @@ public static void main(String[] args){
 ## Super
 부모 클래스 접근
 
+```markdwon
+super.부모클래스 변수;
+super.부모 클래스 메도스();
+super();
+```
+```java
+//부모클라스
+class Person{
+    int age;
+    Persion(int age){
+        this.age = age;
+    }
+}
+
+//자식클라스
+class Student extends Person{
+    String school;
+    Student(int age, String school){
+        // this.age = age;
+        //부모클래스에 있는 나이정보와 똑같음 
+        super(age);;
+        //부모클래에 정의된 나이정보 생성자 호출
+        this.school; = school; 
+    }
+}
+```
+
+-----------------------------------------------------
+
+## 참조
+객체의 메모리 주소를 가리킴
+
+### 기본 자료형
+```java
+int a = 10;
+int b = 20;
+a=b;// b의 값을 a에복사 a:20
+```
+
+### 참조 자료형
+```java
+String s1 = "사과";
+String s2 = "바나나";
+s1=s2;// s1은 s2가 가리키는 바나나의 주소를 똑같이 참조
+```
+
+-----------------------------------------------------
+
+## Final
+변경할 수 없게!!!
+```java
+class Person{
+    final String name = "철수";
+    public final void introduce(){
+        System.out.println("사람입니다")
+    }
+}
+
+//!!!오버라이딩 불가!!!
+class Student extends Person{
+    public void introduce(){
+        System.out.println("학생입니다")
+    }
+}
+```
+
+## 열거형
+
 
 
 
