@@ -296,6 +296,7 @@ class Student extends Person{
 
 2. 코드 재사용성과 확장성 향상
 - 유지보수가 쉬어지고, 새로운 클라스 추가가 용이함
+
 ```java
 class Person{
     public void introduce(){
@@ -320,6 +321,7 @@ public static void main(String[] args){
     student.introduce();
 }
 ```
+
 ```html
 <table>
   <thead>
