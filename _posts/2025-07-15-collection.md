@@ -126,6 +126,56 @@ public static void main(String[] args){
 
 ### List로 멤버정보 출력하기
 
+```java
+멤버클래스
+class Member {
+	
+	String name;
+	int age;
+
+    public Member(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	@Override
+	public String toString() {
+		return "Member [name=" + name + ", age=" + age + "]";
+	}
+	
+}
+```
+```java
+List<Member> memberList = new ArrayList<Member>();
+memberList.add(new Member("홍길동", 15));
+memberList.add(new Member("장보고", 20));
+memberList.add(new Member("강감찬", 30));
+memberList.add(new Member("김유신", 40));
+memberList.add(new Member("안중근", 50));
+
+for(Member m : memberList) {
+    System.out.println(m);
+}
+```
+출력 값
+```markdown
+Member [name=홍길동, age=15]
+Member [name=장보고, age=20]
+Member [name=강감찬, age=30]
+Member [name=김유신, age=40]
+Member [name=안중근, age=50]
+```
 
 
 
