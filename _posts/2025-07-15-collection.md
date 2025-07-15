@@ -157,25 +157,41 @@ class Member {
 }
 ```
 ```java
-List<Member> memberList = new ArrayList<Member>();
-memberList.add(new Member("홍길동", 15));
-memberList.add(new Member("장보고", 20));
-memberList.add(new Member("강감찬", 30));
-memberList.add(new Member("김유신", 40));
-memberList.add(new Member("안중근", 50));
+package chapter15.list;
 
-for(Member m : memberList) {
-    System.out.println(m);
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayList03 {
+
+	public static void main(String[] args) {
+		
+		List<Member> memberList = new ArrayList<Member>();
+		memberList.add(new Member("홍길동", 15));
+		memberList.add(new Member("이순신", 25));
+		memberList.add(new Member("장보고", 18));
+		memberList.add(new Member("이순신", 25));
+		memberList.add(new Member("강감찬", 45));
+		
+		for(Member m : memberList) {
+			System.out.println(m);
+		}
+		
+	}
 }
+
 ```
 출력 값
 ```markdown
 Member [name=홍길동, age=15]
-Member [name=장보고, age=20]
-Member [name=강감찬, age=30]
-Member [name=김유신, age=40]
-Member [name=안중근, age=50]
+Member [name=이순신, age=25]
+Member [name=장보고, age=18]
+Member [name=이순신, age=25]
+Member [name=안중근, age=45]
 ```
+
+## LinkedList
+
 
 
 
