@@ -261,7 +261,7 @@ public static void main(String[] args){
                 <td>{}</td>
             </tr>
         </tbody>
-    </table>
+</table>
 
 -----------------------------------------------------------
 
@@ -355,7 +355,7 @@ true
                 <td>{}</td>
             </tr>
         </tbody>
-    </table>
+</table>
 
 -----------------------------------------------------
 
@@ -463,35 +463,38 @@ public static void main(String[] args){
 }*/
 }
 ```
+<table>
+  <caption>Iterator</caption>
+  <thead>
+    <tr>
+      <th>기능</th>
+      <th>설명</th>
+      <th>예시</th>
+      <th>결과</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>hasNext</td>
+      <td>다음 요소가 있는지 확인</td>
+      <td>it.hasNext()</td>
+      <td>true</td>
+    </tr>
+    <tr>
+      <td>next</td>
+      <td>다음 요소를 가져오기</td>
+      <td>it.next()</td>
+      <td>"철수"</td>
+    </tr>
+    <tr>
+      <td>remove</td>
+      <td>현재 요소 삭제</td>
+      <td>it.remove()</td>
+      <td>"철수" 제거</td>
+    </tr>
+  </tbody>
+</table>
 
-<caption>Iterator</caption>
-        <thead>
-            <tr>
-                <th>기능</th>
-                <th>설명</th>
-                <th>예시</th>
-                <th>결과</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>hasNext</td>
-                <td>다음요소확인</td>
-                <td>it.hasNext()</td>
-                <td>true</td>
-            </tr>
-            <tr>
-                <td>next</td>
-                <td>다음요소 가져오기</td>
-                <td>it.next()</td>
-                <td>"철수"</td>
-            </tr>
-            <tr>
-                <td>remove</td>
-                <td>삭제</td>
-                <td>map.get("철수");</td>
-                <td>100</td>
-            </tr>
 
 
 
