@@ -83,7 +83,7 @@ alter user madang default tablespace users quota unlimited on users;
 drop user madang;
 --계정 삭제(실행x)
 ```
->>> 이렇게하면 madang 계정을 만들 수 있다.
+이렇게하면 madang 계정을 만들 수 있다.
 
 --------------------------------------------------------------
 
