@@ -346,7 +346,7 @@ public static void main(String[] args){
 ## Super
 부모 클래스 접근
 
-```markdwon
+```markdown
 super.부모클래스 변수;
 super.부모 클래스 메도스();
 super();
