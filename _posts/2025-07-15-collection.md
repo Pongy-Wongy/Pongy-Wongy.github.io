@@ -2,7 +2,7 @@
 layout: single
 title: "컬렉션"
 excerpt: "여러가지 컬렉션에 대해 복습"
-categories: Java, Collection
+categories: Java Collection
 tag: [Java, Collection]
 toc: true
 ---
