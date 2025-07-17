@@ -63,8 +63,8 @@ on cs.custid = od.custid
 join book b
 on b.bookid = od.bookid
 where b.price > 20000;
-
 ```
+
 3. 가장 가격이 저렴한 도서를 주문한 고객의 이름과 전화번호를 조회
 ```sql
 select cs.name, cs phone
@@ -77,6 +77,7 @@ where b.price = (
     select min(price) 
     from book);
 ```
+
 4. 평균 도서 가격보다 비싼 도서를 주문한 고객의 이름을 조회
 ```sql
 select cs.name
@@ -90,6 +91,7 @@ where b.price > (
     from book);
 
 ```
+    
 5. 2022년 1월 1일 이후에 주문한 고객의 이름을 조회
 ```sql
 select cs.name
