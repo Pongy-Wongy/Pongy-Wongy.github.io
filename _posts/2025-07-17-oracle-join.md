@@ -89,9 +89,8 @@ on b.bookid = od.bookid
 where b.price > (
     select avg(price) 
     from book);
-
 ```
-    
+
 5. 2022년 1월 1일 이후에 주문한 고객의 이름을 조회
 ```sql
 select cs.name
