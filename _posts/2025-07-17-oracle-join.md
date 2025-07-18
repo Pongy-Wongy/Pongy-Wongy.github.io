@@ -67,7 +67,7 @@ where b.price > 20000;
 
 3. 가장 가격이 저렴한 도서를 주문한 고객의 이름과 전화번호를 조회
 ```sql
-select cs.name, cs phone
+select cs.name, cs.phone
 from customer cs
 join orders od
 on cs.custid = od.custid
