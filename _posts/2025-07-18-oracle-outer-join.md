@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "OrcaleSQL JOIN"
-excerpt: "JOIN 이해하기"
+title: "OrcaleSQL OUTERJOIN"
+excerpt: "OUTERJOIN 이해하기"
 categories: OracleSQL
 tag: OracleSQL
 toc: true
