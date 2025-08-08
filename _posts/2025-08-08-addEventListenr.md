@@ -45,15 +45,18 @@ published: true
 </script>
 </body
 ```
-**document.getElementsByClassName('content')[0]**는   
-클래스 이름이 **class = "content"**인 모든 요소를 가져온다.   
-**[0]** 은 *class = "content"를 가진 **HTML코드**의** 첫번째 요소를 가리킨다.
+**document.getElementsByClassName('content')[0]**는  
+
+클래스 이름이 **class = "content"**인 모든 요소를 가져온다.  
+
+**[0]** 은 *class = "content"를 가진 **HTML코드**의** 첫번째 요소를 가리킨다.  
+
 위에코드에서는 <p class="content">본문1</p>를 가리킨다.
 
 그 다음에  **addEventListener('mouseover', function())**이 나오는 걸 확인 할 수 있는데
 바로 **addEventListener**의 문법이다.
 
-**addEventListener** 는 이벤트 발생시 **콜백함수**를 수행한다.
+**addEventListener** 는 **이벤트** 발생시 **콜백함수**를 수행한다.
 
 위의 코드에서는 **function()**이 **콜백함수**다.
 
